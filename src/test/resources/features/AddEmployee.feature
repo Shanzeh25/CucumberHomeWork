@@ -9,26 +9,25 @@ Feature: This feature is  going to add employees in HRMS application
 
   @smoke @hw
   Scenario: Add an employee
-    When user enters firstName , middleName and lastName
-    And user clicks on save button
-    When user clicks on edit
-    And enters nick name
-    When user enters license number
-    And user enters other id
-    When user enters ssn no
-    And user enters sin no
-    When user enters military service
-    And Click in license Expiry date calender
-    When user click on month and select month
-    And user click on year and select year
-    When user select date
-    And user clicks on DOB
-    When user select month and year
-    And user click on date
-    When user clicks on marital status
-    And user select the status
-    When user click on nationality and select it
-    And user ticks on smoker
-    When user select the gender
-    And user clicks on save button
-    Then employee added successfully
+    * user enters firstName , middleName and lastName
+    * user clicks on edit
+    * enters nick name
+    * user enters license number
+    * user enters other id
+    * user enters ssn no
+    * user enters sin no
+    * user enters military service
+    * Click in license Expiry date calender
+    * user click on month and select month
+    * user click on year and select year
+    * user select date
+    * user clicks on DOB
+    * user select month and year
+    * user click on date
+    * user clicks on marital status
+    * user select the status
+    * user click on nationality and select it
+    * user ticks on smoker
+    * user select the gender
+    * user clicks on save button
+    * employee added successfully
